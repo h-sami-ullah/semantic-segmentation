@@ -2,9 +2,6 @@ from src.config.configuration import *
 from torch import optim
 
 
-from typing import Union, List
-
-
 def get_optimizer(config: config):
     """
     optimizer builder function
